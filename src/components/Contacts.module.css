@@ -1,12 +1,9 @@
 .contacts {
     margin: 0 auto;
-    padding: 100px;
-    /* max-width: 300px; */
-    height: 100%;
     background: linear-gradient(to bottom, #2a57ec6b, #b6ec427a);
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
