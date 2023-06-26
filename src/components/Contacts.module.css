@@ -1,17 +1,16 @@
 .contacts {
-    margin: 0 auto;
-    background: linear-gradient(to bottom, #2a57ec6b, #b6ec427a);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #2a57ec6b, #b6ec427a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .title {
-    margin-top: 0;
-    text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 
 .title:not(:first-child) {
-    margin-top: 40px;
+  margin-top: 40px;
 }

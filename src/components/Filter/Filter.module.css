@@ -1,21 +1,19 @@
 .label {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-    font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  font-size: 24px;
 }
 
-
 .input {
-    margin-top: 8px;
-    width: 250px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 4px;
+  margin-top: 8px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 .input:focus {
-    background: linear-gradient(to left, #cad2ee6b, #d5eca47a);
-
+  background: linear-gradient(to left, #cad2ee6b, #d5eca47a);
 }
