@@ -17,7 +17,7 @@ export class App extends Component {
   addContact = ({ name, number }) => {
     const { contacts } = this.state;
     const existing = contacts.find(
-      e => e.name.trim().toLowerCase() === name.trim().toLowerCase()
+      e => e.name.toLowerCase() === name.toLowerCase()
     );
 
     if (existing) {
@@ -49,9 +49,7 @@ export class App extends Component {
 
   deleteContact = id => {
     this.setState(prevState => ({
-      contacts: prevState.contacts.filter(
-        ({ id: contact_ID }) => contact_ID !== id
-      ),
+      contacts: prevState.contacts.filter(contact => contact.id !== id),
     }));
   };
 
